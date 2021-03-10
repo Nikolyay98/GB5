@@ -2,7 +2,6 @@ package company;
 
 
 public class Employee {
-    // Создать класс "Сотрудник" с полями: ФИО, должность, email, телефон, зарплата, возраст;
 
     private String FIO;
     private String pozition;
@@ -11,7 +10,6 @@ public class Employee {
     private int age;
     private float salary;
 
-    // Конструктор класса должен заполнять эти поля при создании объекта;
 
     public Employee(String FIO, String pozition, String email, String PhoneNumber, int age, float salary ){
         this.FIO = FIO;
