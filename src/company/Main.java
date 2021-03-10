@@ -32,8 +32,5 @@ public class Main {
                 22);
         for (int i = 0; i < employee.length; i++){
             if(employee[i].getAge() > 40){
-                employee[i].printInfo();
-            }
-        }
-    }
+                employee[i].printInfo(); } } }
 }
